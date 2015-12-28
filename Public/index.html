@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Jitsi client</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="js/adapter.js"></script>
+  <script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
+</head>
+
+<body>
+  <h1></h1>
+
+
+<form>
+
+  <h2 id="createRoom">Create Room : </h2>
+  <input id="createRoombox" autofocus="autofocus" type="text" name="Room name">
+  <br>
+  <h1 id="or">OR</h1>
+  <br>
+  <h2 id= "joinRoom">Join Room : </h2>
+  <input id="joinRoombox" autofocus="autofocus" type="text" name="Room Name" >
+  <br><br>
+    <input type="button" id="button" value="Gimme Chat !" onclick = "evaluate();">
+</form>
+
+
+
+
+  <!-- <video id="sourcevid" autoplay>
+  </video>
+  <button type="button" onclick="startVideo();">start video</button>
+  <button type="button" onclick="stopVideo();">Stop video</button>
+
+  <video id="remotevid" autoplay>
+  </video>
+  <button type="button" onclick="connect();">Connect</button>
+  <button type="button" onclick="hangUp();">Hang Up</button> -->
+  <script src="js/PeerConn.js"></script>
+</body>
+
+
+</html>

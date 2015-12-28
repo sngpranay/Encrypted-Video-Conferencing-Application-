@@ -1,0 +1,22 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "In browser conferencing client using WebRTC and socket.io",
+  "main": "adapter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sngpranay/WebRTC-video-conferencing-client.git"
+  },
+  "author": "Pranay Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sngpranay/WebRTC-video-conferencing-client/issues"
+  },
+  "homepage": "https://github.com/sngpranay/WebRTC-video-conferencing-client#readme",
+  "dependencies": {
+    "shortid": "^2.2.4"
+  }
+}

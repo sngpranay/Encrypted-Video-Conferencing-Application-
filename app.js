@@ -132,16 +132,5 @@ function searchArray(query,array)
 // to create room only match the desired room to join with room in array,
 // now after client has entered the room, make him exchange sdp with each/
 // other participant in the room. First try with two participants then try with
-// multiple participants. I'm not sure but maybe after each client exchanges,
-// sdp with each other then maybe the can add each others videos on their screen.
-// To create a seperate peer object for each two clients use a for loop
-// to loop through the the number of clients and create new peerconn object like
-// createPeerConnection(i)
-// {
-//   pc[i]=new PeerConnection.....
-//
-// }
+// multiple participants.
 
-//In short create a room and try and get two people to talk by the above method and
-// see if it works.
-// Try runnning mymessage between pairs of client in a room
